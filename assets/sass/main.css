@@ -720,7 +720,6 @@ input, select, textarea {
   flex: 1;
 }
 .flex-container__item--right {
-  border-left: 1px solid #ccc;
   position: relative;
 }
 .flex-container__item--right img {
@@ -733,7 +732,6 @@ input, select, textarea {
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  /* Black background with opacity */
   color: #ffffff;
   width: 100%;
   padding: 1rem;

@@ -116,7 +116,6 @@ $aqua: #72efdd;
     }
     &__item--right{
         // padding: 2rem;
-        border-left: 1px solid #ccc;
         position: relative;
         img {
             max-width: 100%;
@@ -127,8 +126,7 @@ $aqua: #72efdd;
         .txt {
             position: absolute;
             bottom: 0;
-            // background: rgb(0, 0, 0);/* Fallback color */
-            background-color: rgba(0, 0, 0, 0.5);/* Black background with opacity */
+            background-color: rgba(0, 0, 0, 0.5);
             color: #ffffff;
             width: 100%;
             padding: 1rem;
