@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link href="assets/sass/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="nav">
+            <li><a href="index.html" class="nav__item nav__item--is--active">Main</a></li>
+            <li><a href="info.html" class="nav__item">About us</a></li>
+            <li><a href="contact.html" class="nav__item">Contact</a></li>
+            <li><a href="articles.html" class="nav__item">Articles</a></li>
+            <li><a href="schedule.html" class="nav__item">Schedule</a></li> 
+            <li><a href="cont.html" class="nav__item">Content</a></li>
+            <li><a href="contact.html" class="nav__item">Contact</a></li>
+            <li><a href="login.html" class="nav__item nav__item--right">Login</a></li>
+            <li><a href="signup.html" class="nav__item nav__item--right">Sign Up</a></li>
+        </ul>
+    </nav>
+    <section>
+            <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/cat.jpg">
+            <div class="text">Caption Text</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/dog.jpg">
+            <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/dark.jpg">
+            <div class="text">Caption Three</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    <section>
+        <div class="main_content">
+            <h1>Hello there! <span class="material-icons">pets</span></h1>
+            <p>Nullam at nisi id lacus pretium tincidunt. Suspendisse aliquet lacinia pharetra. 
+                Praesent dictum elementum vulputate. In varius ipsum ante. Vestibulum ante ipsum primis in faucibus 
+                orci luctus et ultrices posuere cubilia curae; Cras hendrerit ac tortor sit amet mollis. Integer eu 
+                felis nunc. Vestibulum non vehicula sem. Nullam congue sapien at convallis iaculis. Cras facilisis 
+                magna at ligula dictum ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </div>
+    </section>
+    <section>
+        <div class="gallery">
+            <img src="images/dog.jpg">
+            <img src="images/cat.jpg">
+            <img src="images/dark.jpg">
+        </div>
+    </section>
+    <section>
+        <div class="contact">
+            <div class="contact__col contact__col--left">
+                <figure>
+                    <a href="#" title="Dr. Anna Nowak"><img src="images/doc.jpg" alt="Dr. Anna Nowak"></a>
+                    <figcaption>Dr. Anna Nowak</figcaption>
+                </figure>
+            </div>
+            <div class="contact__col contact__col--right">
+                <h3>Vet Specjalist</h3>
+                <p class="first-p">Dr. Anna Nowak</p>
+                <p class="sec-p">A doctor with 10 years of experience. She graduated from Cambridge University. Veterinary is her passion. She loves animals every sizes.</p>
+                <ul class="btn">
+                    <li><a href="#">Read more</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>2021 &copy; Design: <a href="https://www.facebook.com/" target="_blank" title="facebook-account">Konstancja Mielczarek</a></p>
+    </footer>
+    <script src="assets/js/slider.js"></script>
+</body>
+</html>

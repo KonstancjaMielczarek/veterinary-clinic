@@ -1,0 +1,92 @@
+#login__body {
+    background-image: url(/images/bg/light_honeycomb.png);
+}
+
+.arrow {
+    position: relative;
+    display: inline;
+    a {
+        position: fixed;
+        top: 10%;
+        left: 5%; 
+        text-decoration: none;
+        background-color: #aaa;
+        border-radius: 8px;
+        display: inline;
+        color: #fff; 
+        &:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+            color: #64dfdf;
+            cursor: pointer;       
+        }
+    }
+    .material-icons {
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-weight: 900;
+        text-align: center; 
+    }
+}
+.authorization {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    height: auto;
+    width: 50%;
+    padding: 10rem 10rem 4rem 10rem;
+    background-color: #eee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    &__input {
+        display: block;
+        box-sizing: border-box;
+        padding: 1rem 2rem;
+        border: 1px solid #ccc;
+        font-size: 1.5em;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 4px;
+        &:focus {
+            outline: none;
+            border: 1px solid #777;
+        }
+        &:hover {
+            box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 28px 0 rgba(0, 0, 0, 0.19);  
+        }
+    }
+    &__submit {
+        width: 100%;
+        background-color: #53cece;
+        color: #fff;
+        padding: 1rem 2rem;
+        border: none;
+        font-size: 1.5em;
+        font-weight: 600;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+        border-radius: 4px;
+        &:hover {
+            background-color: #64dfdf;
+            box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 28px 0 rgba(0, 0, 0, 0.19);  
+        }
+    }
+    &__signup-p {
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 2.5rem;
+        a {
+            text-decoration: none;
+            color: #111;
+            font-weight: 600;
+            &:hover {
+                color: #53cece;
+            }
+        }
+    }
+    &__msg {
+        visibility: hidden;
+        margin-top: 2rem;
+        padding: 1rem;
+        font-size: 1.3em;
+        text-align: center;
+    }
+}
